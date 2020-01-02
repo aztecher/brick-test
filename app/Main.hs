@@ -26,6 +26,9 @@ import qualified Examples.ViewportScrollDemo as ViewportScrollDemo
 import qualified Examples.ThemeDemo as ThemeDemo
 import qualified Examples.VisibilityDemo as VisibilityDemo
 
+--
+import qualified Insel.InselNull as InselNull
+
 ui :: Widget ()
 ui = str "Hello, world!"
 
@@ -54,4 +57,5 @@ main :: IO ()
 -- main = SuspendAndResumeDemo.main
 -- main = ViewportScrollDemo.main
 -- main = ThemeDemo.main
-main = VisibilityDemo.main
+-- main = VisibilityDemo.main
+main = InselNull.main
